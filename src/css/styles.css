@@ -80,7 +80,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: #0E4429;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -106,7 +106,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid #0E4429;
 }
 
 .container .profile-data .info h1{
@@ -141,10 +141,11 @@ main {
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  font-size: 1.2rem;
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color:#0E4429;
   color: #fff
 }
 
