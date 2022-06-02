@@ -28,6 +28,7 @@ Users should be able to:
 
 ### Links
 
+(OBS: ctrl + click ⬇️)
 - Live Site URL: [Click-me](https://gugas1lva.github.io/GitHub-API--Profile.Search/)
 
 ## My process
