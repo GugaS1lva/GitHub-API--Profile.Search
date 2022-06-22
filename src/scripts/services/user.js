@@ -1,4 +1,4 @@
-import { baseUrl } from '../variables.js'
+import {baseUrl} from '../variables.js'
 
 async function getUser(userName){
     const response = await fetch(`${baseUrl}/${userName}`)

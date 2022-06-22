@@ -5,6 +5,9 @@
   padding: 0;
   font-weight: 300;
 }
+strong{
+  font-weight: bold;
+}
 
 img {
   max-width: 100%;
@@ -119,13 +122,42 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.container .profile-data .info .social{
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.container .profile-data .info .social .follow{
+  padding: 10px 10px;
+  background-color: #dddddd; /*#0E4429 verde escuro*/
+  border-radius: 10px;
+  color: #0E4429;
+}
+.container .profile-data .info .social .follow p{
+  margin-bottom: -5px;
+}
+
+.fa-bug{
+  font-size: 1.3rem;
+  color: #15643c;
 }
 
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
-  margin-bottom: 30px;
+  margin: 50px 0 30px 0;
   text-align: center;
+}
+.container .profile-data .repositories hr:last-child{
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+#activityTittle{
+  margin-bottom: 25px;
 }
 
 .container .profile-data .repositories ul{
@@ -141,12 +173,24 @@ main {
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
-  font-size: 1.2rem;
 }
 
 .container .profile-data .repositories ul li a:hover{
   background-color:#0E4429;
   color: #fff
+}
+
+.container .profile-data .repositories ul li span{
+  margin: 5px 0 -5px 0;
+  display: flex;
+  justify-content: center;
+}
+.container .profile-data .repositories ul li span p{
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #dddddd;
+  color: black;
 }
 
 .container .profile-data.hide{

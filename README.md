@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 (OBS: ctrl + click ⬇️)
-- Live Site URL: [Click-me](https://gugas1lva.github.io/GitHub-API--Profile.Search/)
+- Live Site URL: [Click-me](https://gugas1lva.github.io/GugaT-012--Quest.JS.Avancado/)
 
 ## My process
 
@@ -42,7 +42,8 @@ Users should be able to:
 
 ### What I learned
 
-...
+I honed my skills by consuming APIs, importing and exporting modules, creating validations and ordering functions.
+I improved my ability to organize tasks with multiple refactorings in my code. The division of responsibilities was one of the most valuable things I improved when building this project.
 
 ```html
 <h1>...</h1>
